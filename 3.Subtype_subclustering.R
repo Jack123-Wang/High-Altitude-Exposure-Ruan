@@ -1,6 +1,5 @@
-setwd("/home/wangjiaqi/data_HD_1/mission/plain_plateau/Neu")
 library(stringr)
-seurat_integrated1<-readRDS("/data1/yangwubin/1.data/4.gaoyuan/ENV_change/去除other1203.rds")
+seurat_integrated1<-readRDS("seurat_integrated1.rds")
 metadata<-seurat_integrated1@meta.data
 library(Seurat)
 DimPlot(seurat_integrated1,
