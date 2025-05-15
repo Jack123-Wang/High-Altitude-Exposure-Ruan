@@ -9,8 +9,8 @@ Most scripts rely on the use of R software：
 
 2.Differential expression analysis.R
 
-3.Neu_subclustering.R
+3.Subtype_subclustering.R
 
-4.Neu_Monocle3.R
+4.Monocle3.R
 
 5.Cellchat.R
